@@ -1,0 +1,264 @@
+#editor{
+    background: #eee;
+}
+/*spinner start*/
+.overlay {
+    margin-left: 0px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(31, 7, 186, 0.26);
+    overflow-x: hidden;
+}
+
+.overlay.foo {
+    position: relative;
+    top: 1px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(225, 225, 225);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*spinner end*/
+
+/*Auto Complete*/
+
+.result {
+    background-color: #fff;
+    width: 263px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 35px;
+    z-index: 1000;
+    margin-bottom: 30px;
+}
+
+.resultCustomer {
+    background-color: #fff;
+    width: 249px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 58px;
+    z-index: 1000;
+    margin-bottom: 30px;
+}
+
+input.auto-complete-active {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.result table {
+    width: 100%;
+}
+
+/*SEARCH TABLE DESIGN*/
+
+.table-header {
+    background-color: #31708f;
+    color: #fff !important;
+    border: none;
+    text-align: center;
+    width: inherit;
+}
+
+.table-row, .data-row {
+    padding: 10px 0px;
+    min-height: 40px;
+}
+
+.data-row:hover {
+    padding: 10px 0px;
+    min-height: 40px;
+    background-color: #ddd;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #eee;
+}
+
+/* INVOICE DESIGN */
+
+.invoice-date {
+    background-color: transparent !important;
+    cursor: pointer !important;
+    border: none !important;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.invoice-date:hover {
+    color: #00a8ff !important;
+}
+
+.invoice-container {
+    padding: 30px;
+    min-height: 10px;
+}
+
+.invoice-header {
+    margin-bottom: 50px;
+}
+
+.invoice-title {
+    font-size: 30pt;
+    font-weight: bold;
+    display: block;
+    padding-top: 5px;
+}
+
+.invoice-section {
+    /* margin-bottom: 30px; */
+    margin-top: 30px;
+}
+
+.invoice-details-block {
+    background-color: #f3f7fb;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: #2c363c;
+    font-size: 10.5pt !important;
+}
+
+.invoice-details-block > .title {
+    display: block;
+    color: #001aa0;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.invoice-details-block > .name {
+    font-weight: bold;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #ddd;
+}
+
+/* table */
+
+.invoice-table-heading {
+    background-color: #f3f7fb;
+    display: table-row;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    font-weight: bold;
+    color: #001aa0;
+}
+
+.cell-padding {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.row-bg {
+    background-color: #fafafa;
+}
+
+.row-total {
+    background-color: #f3f7fb;
+    color: #001aa0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.label-manage {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+.title-center {
+    margin-left: 30%;
+    margin-top: 0px;
+}
+
+.pull-center{
+    align-content: center;
+    margin-left: 48%;
+}
+
+/* END INVOICE DESIGN*/
+
+/*number plus minus spiner hide start*/
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p.error {
+	color:red;
+}
+
+.datatable-cust-label{
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #2980B9!important;
+    background-color: #2980B9!important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2980B9), color-stop(100%, #2980B9))!important;
+    background: -webkit-linear-gradient(top, #2980B9 0%, #2980B9 100%)!important;
+    background: -moz-linear-gradient(top, #2980B9 0%, #2980B9 100%)!important;
+    background: -ms-linear-gradient(top, #2980B9 0%, #2980B9 100%)!important;
+    background: -o-linear-gradient(top, #2980B9 0%, #2980B9 100%)!important;
+    background: linear-gradient(to bottom, #2980B9 0%, #2980B9 100%)!important;
+}
+
+.margin-b-5{
+    margin-bottom: 5px;
+}
+.expire-product-row{
+    background-color: #ff000026 !important;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/*number plus minus spiner hide end*/
+

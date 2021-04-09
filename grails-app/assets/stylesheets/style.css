@@ -1,0 +1,377 @@
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.mb-30{
+	margin-bottom: 30px;
+}
+
+p{
+	margin: 0;
+}
+
+.tbl-box{
+	text-align: center;
+	height: 100px;
+	display: table;
+	width: 100%;
+	border: 2px solid #3c8dbc;
+  margin-bottom: 30px;
+}
+
+.box-body .box{
+	border-top: 1px solid #d2d6de;
+	display: inline-block;
+}
+
+.tbl-title{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.tbl-num{
+	display: block;
+}
+
+.discount-section,
+.tax-section,
+.total-amount{
+	margin-bottom: 15px;
+	background: azure;
+}
+
+.bill .quantity{
+	width: 50px;
+	text-align: center;
+}
+
+.bill .box-body{
+	padding-bottom: 30px;
+}
+
+
+
+.modal-title{
+	font-weight: 700;
+}
+
+.modal-add .input-group{
+	width: 200px;
+}
+
+.menu-box{
+	position: relative;
+	text-align: center;
+	height: 130px;
+	display: block;
+  margin-bottom: 30px;
+  border: 2px solid #f1f1f1;
+  overflow: hidden;
+}
+	
+ .menu-box .item-overlay .item-name{
+ 	position: absolute;
+ 	top: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+ 	
+ }
+
+.item-overlay .item-name span{
+	display: table-cell;
+ 	vertical-align: middle;
+ 	font-size: 14px;
+ }
+ 
+.item-name .item .product-name,
+.item-name .item .item-quantity{
+	display:block;
+}
+
+.tax-section .control-label,
+.total-amount .control-label{
+	text-align: right;
+}
+
+.modal-title{
+	color: #fff !important;
+}
+
+.box-header,
+.modal-header{
+	background-color: #3c8dbc;
+	border-radius: 3px 3px 0 0;
+}
+
+.modal-content{
+	border-radius: 3px !important;
+}
+
+.box-title{
+	color:#fff !important;
+}
+
+.bill .box{
+	padding: 20px
+}
+
+.bill .box .bill-header{
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 15px;
+}
+
+.close{
+	color: #fff !important;
+	opacity: inherit;
+}
+
+.box{
+	border-top: inherit !important;
+	box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-pills li a{
+	color: #fff !important;
+}
+
+.nav-pills li a{
+	border: none !important;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:focus,
+.nav-pills li  a:hover{
+    color: #3c8dbc !important;
+    background-color: #ffffff !important;
+    border-radius: 3px !important;
+}
+
+.bg-danger{
+	background-color:#dd4b39 !important;
+}
+
+.login-box-body, .register-box-body{
+	border-radius: 0 0 3px 3px;
+}
+
+.login-box-body .glyphicon,
+.register-box-body .glyphicon,
+.register-box-body form .glyphicon{
+	color: #3c8dbc;
+}
+
+.login-box-header,
+.register-box-header{
+	padding: 15px 0;
+	background-color: #3c8dbc !important;
+	color: #fff !important;
+	border-radius: 3px 3px 0 0 !important;
+}
+
+.login-box-msg, .register-box-msg{
+	padding: 0 !important;
+}
+
+.login-box-wrap,
+.register-box-wrap{
+	box-shadow: 0 8px 14px 0 rgba(0,0,0,0.03);
+}
+
+.mb-15{
+	margin-bottom: 15px !important;
+}
+
+.selected{
+	float: right;
+    margin-top: -22px;
+    margin-right: 10px;
+}
+
+.login-logo, .register-logo{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.login-logo img,
+.register-logo img{
+	width: 200px;
+}
+
+.login-page, .register-page {
+    background-color:#fcfcfc;
+    
+}
+
+.login-page{
+	position: relative;
+	height: auto;
+	min-height: 100%
+}
+
+.login-sidebar-img{
+	position: relative;
+	text-align: center;
+}
+
+.login-sidebar-img img{
+	width: 200px;
+}
+
+.login-sidebar,
+.register-sidebar{
+	position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3c8dbc;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 300px;
+    z-index: 810;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+
+
+.login-box, .register-box{
+	-webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
+    transition: transform .3s ease-in-out,margin .3s ease-in-out;
+    margin:0 0 0 420px;
+    padding-top: 70px;
+    z-index: 820;
+}
+
+.canvas-wrap{
+	background-color: #fff;
+	padding: 30px;
+}
+
+.form-horizontal .form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.modal-body,
+.modal-footer{
+	padding:20px; !important;
+}
+
+.modal .control-label{
+	padding-top:0;
+}
+
+.form-group:last-child{
+	margin-bottom:0;
+}
+
+.box-body{
+	padding:20px !important;
+}
+
+.login-sidebar:before,
+.register-sidebar:before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #3c8dbc, #4d99c6, #5da5d0, #6db2db, #7cbee5);
+	opacity: 0.8;
+}
+
+
+/* added by ros */
+
+
+@media (max-width: 991.98px) {
+	.modal-add .input-group {
+    width: 100%;
+}
+
+.login-sidebar,
+.register-sidebar{
+	display: none;
+}
+
+.login-box, .register-box{
+	margin: 7% auto !important;
+	padding-top: 0;
+}
+
+}
+
+
+ 
+ 
+ .pointercursor{
+	cursor:pointer;
+}
+
+.pickedColor{
+	background:#c9ffba;
+}
+
+.productAddSuccess{
+	color:green;
+	font-szie:12px;
+	display:none;
+}
+.productAddFailure{
+	color:red;
+	font-szie:12px;
+	display:none;
+}
+.smalltext10{
+	font-size: 10px;
+}
+.cbordergreen{
+	border:1px solid #a5ff85;
+}
+.cborderred{
+	border:1px solid #ffbdb3;
+}
+
+.marginTop10{
+	margin-top:10px;
+}
+
+.deletedText{
+	 text-decoration: line-through;
+}
+
+
+.restErrorMessage{
+	display:none;
+}
+
+.restErrorMessagePaymentInstallment{
+	display:none;
+}
+
+.restErrorMessageRefundInstallment{
+	display:none;
+}
+
+.kotprint{
+	width:80px;
+	float:right;
+}
+.hiddenContain{
+	display:none;
+}
+
+.perm-selected{
+	background-color: #00a65a;
+}
+.dnone{
+	display:none !important;
+}
