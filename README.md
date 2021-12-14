@@ -12,7 +12,7 @@
 <li><b>jdkVersion=1.8</b></li>
 </ul>
 
-# oauth request for token
+# oauth post request for token
 http://localhost:8080/oauth/token?username=dhirajbadu50@gmail.com&password=123456789&grant_type=password&client_id=visitor-tracking&client_secret=1234&scope=read
 
 # oauth controller : ApiController
