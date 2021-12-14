@@ -1,4 +1,10 @@
-Grails4 configured with security and oauth2
+Grails 4 skeleton with spring security and Oauth2
+spring security and Oauth2
+spring security and Oauth2 configuration
+
+grails4 oauth2 with springsecurity
+grails4 oauth2 authentication with springsecurity
+
 
 # Requirements
 <ul>
